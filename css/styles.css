@@ -577,3 +577,156 @@ input::placeholder {
     border: none;
     margin-top: 40px;
 }
+
+.icon-footer {
+    fill: #FFFFFF
+}
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #2E2F4266;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.modal {
+    position: relative;
+    width: 100%;
+    max-width: 408px;
+    height: 100%;
+    max-height: 584;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    padding: 72px 24px 24px;
+    overflow: auto;
+}
+
+.modal-close {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    border: 1px solid #b8bbbe;
+    border-radius: 50%;
+    background-color: #E7E9FC;
+}
+
+.modal-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.icon-person {
+    fill: #4D5AE5;
+}
+
+.icon-tel {
+    fill: #2E2F42;
+}
+
+.modal-input-wrap {
+    position: relative;
+}
+
+.modal-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.modal-checkbox-label {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+
+}
+
+.policy-link {
+    color: #4D5AE5;
+    text-decoration-line: underline;
+}
+
+.modal-field {
+
+    margin-bottom: 8px;
+}
+
+.modal-label {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
+    margin-bottom: 4px;
+}
+
+.modal-input {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #4D5AE5;
+    background-color: #FCFCFC;
+    padding: 8px 38px;
+
+
+}
+
+.modal-textarea {
+    display: block;
+    min-height: 120px;
+    width: 100%;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #4D5AE5;
+    background-color: #FCFCFC;
+    padding: 8px 16px;
+
+}
+
+.checkbox-field {
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+
+.modal-checkbox-input {}
+
+.modal-batton {
+    color: #FFF;
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 auto;
+    display: block;
+    padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
