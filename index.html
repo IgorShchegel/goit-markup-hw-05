@@ -486,7 +486,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close" type="button">
-          <svg class="close-modal" width="8" height="8">
+          <svg class="close-modal-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
@@ -538,13 +538,19 @@
               ></textarea>
             </label>
           </div>
-          <div class="checkbox-field">
-            <label class="modal-checkbox-label">
-              <input
-                class="modal-checkbox-input visually-hidden"
-                type="checkbox"
-                name="privasy-policy"
-              />
+          <div class="modal-checkbox">
+            <input
+              class="modal-checkbox-input visually-hidden"
+              id="privasy-policy"
+              type="checkbox"
+              name="privasy-policy"
+            />
+            <span class="modal-checkbox-check">
+              <svg class="icon-checkbox" width="16" height="16">
+                <use href="./images/icons.svg#icon-vector"></use>
+              </svg>
+            </span>
+            <label class="modal-checkbox-label" for="privasy-policy">
               I accept the terms and conditions of the
               <a class="policy-link" href="#"> Privacy Policy</a>
             </label>
