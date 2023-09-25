@@ -520,7 +520,6 @@ h2 {
     background-color: #31d0aa;
 }
 
-.subscribe-form {}
 
 .subscribe-title {
     margin-bottom: 16px;
@@ -611,9 +610,7 @@ input::placeholder {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
-    width: 100%;
     max-width: 408px;
-    height: 100%;
     min-height: 584px;
     background-color: #FCFCFC;
     border-radius: 4px;
